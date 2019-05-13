@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+// import Hackerapp from './Hackerapp';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+// ReactDOM.render(<Hackerapp />, document.getElementById('root'));
 ReactDOM.render(<App />, document.getElementById('root'));
 
 if (module.hot) {
